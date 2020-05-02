@@ -1,0 +1,11 @@
+include ./variables
+include ./output
+include ./idle
+include ./input
+include ./key-bindings
+include ./bar
+include ./applications
+include ./appearance
+include ./startup
+
+include /etc/sway/config.d/*

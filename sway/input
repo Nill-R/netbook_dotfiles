@@ -1,0 +1,3 @@
+input * xkb_layout "us,ru"
+input * xkb_variant ""
+input * xkb_options "grp:win_space_toggle"

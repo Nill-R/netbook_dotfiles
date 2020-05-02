@@ -1,0 +1,4 @@
+exec --no-startup-id swaymsg 'workspace 1; exec /usr/bin/terminator'
+exec --no-startup-id swaymsg 'workspace 2; exec QT_QPA_PLATFORM=wayland-egl telegram-desktop'
+exec --no-startup-id swaymsg 'workspace 3; exec MOZ_ENABLE_WAYLAND=1 /usr/bin/firefox'
+exec --no-statrup-id swaymsg 'workspace 4; exec ~/bin/Joplin'
