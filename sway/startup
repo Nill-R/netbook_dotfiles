@@ -3,7 +3,7 @@ exec --no-startup-id swaymsg 'workspace 2; exec QT_QPA_PLATFORM=wayland-egl tele
 exec --no-startup-id swaymsg 'workspace 3; exec MOZ_ENABLE_WAYLAND=1 /usr/bin/firefox'
 exec --no-statrup-id swaymsg 'workspace 4; exec /usr/bin/terminator ~/.joplin-bin/bin/Joplin'
 exec swayidle -w \
-         timeout 60 $locker \
-         timeout 90 'swaymsg "output * dpms off"' \
+         timeout 600 $locker \
+         timeout 700 'swaymsg "output * dpms off"' \
               resume 'swaymsg "output * dpms on"' \
          before-sleep $locker
