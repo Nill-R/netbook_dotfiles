@@ -16,7 +16,7 @@
     "position": "bottom",
 
     // If height property would be not present, it'd be calculated dynamically
-    "height": 18,
+    "height": 15,
     //"width": 1366,
 
     "modules-left": [
