@@ -1,1 +1,4 @@
-font pango:FiraCode 8px
+font pango:FiraCode 6px
+default_border none
+hide_edge_borders --i3 both
+default_floating_border none
