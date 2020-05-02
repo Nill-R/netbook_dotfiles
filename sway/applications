@@ -1,5 +1,5 @@
 assign [class="terminator"] → 1
 assign [class="Telegram"] → 2
 assign [class="Firefox"] → 3
-assign [class="Joplin"] → 4
+#assign [class="Joplin"] → 4
 assign [class="Opera"] → 5

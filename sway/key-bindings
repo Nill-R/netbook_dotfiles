@@ -155,7 +155,7 @@ bindsym $mod+r mode "resize"
 ### Custom
 
 # Lock on keypress.
-bindsym $mod+Shift+o exec $lock
+bindsym $mod+Shift+o exec $locker
 
 # Function keyboard
 # TODO:
