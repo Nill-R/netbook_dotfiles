@@ -167,3 +167,4 @@ bindsym --locked XF86AudioMicMute exec amixer set Capture toggle
 
 # Send signal 1 to waybar when changing keyboard layout
 bindsym $key-alt+space exec "pkill --signal SIGRTMIN+1 waybar"
+bindsym $mod+h exec clipman pick -t wofi
