@@ -8,4 +8,4 @@ exec swayidle -w \
               resume 'swaymsg "output * dpms on"' \
          before-sleep $locker
 exec wl-paste -t text --watch clipman store
-exec wl-paste -p -t text --watch clipman store --histpath="~/.local/share/clipman-primary.json
+exec wl-paste -p -t text --watch clipman store --histpath="~/.local/share/clipman-primary.json"
